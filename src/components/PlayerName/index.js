@@ -1,6 +1,8 @@
+import './style.css';
+
 const PlayerName = (content) => {
     return `
-        <h1>${content}</h1>
+        <p class="player-name">${content}</p>
     `;
 };
 
