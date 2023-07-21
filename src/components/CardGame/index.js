@@ -1,11 +1,11 @@
-import './style.css';
+import "./style.css";
 
-const CardGame = () => {
-    return /*html*/`
+const CardGame = (icon = "alura-pixel", alt = "Logo da alura") => {
+  return /*html*/ `
         <article class="card-game">
-            <img src="images/alura-pixel 1.png" alt="Logo da alura">
+            <img src="images/${icon}.png" alt="${alt}">
         </article>
-    `
+    `;
 };
 
 export default CardGame;
